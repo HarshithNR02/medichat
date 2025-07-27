@@ -32,7 +32,7 @@
 ---
 
 ## Tools & Frameworks
-
+```
 medical_research_bot/
 ├── db/
 │ └── chroma_db/ # Chroma SQLite vector DB
@@ -42,17 +42,16 @@ medical_research_bot/
 ├── main.py # Streamlit application
 ├── medichat-firebase-adminsdk-*.json # Firebase Admin Key
 ├── requirements.txt # Python dependencies
-
-
+```
 ---
 
 ##  Setup Instructions
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/medical_research_bot.git
+git clone https://github.com/HarshithNR02/medichat.git
 
-cd medical_research_bot
+cd medichat
 
 ### 2. Install dependencies
 ```bash
