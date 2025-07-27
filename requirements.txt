@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-openai
+langchain-community
+openai
+unstructured
+google-cloud-firestore
+python-dotenv
+pymupdf
+tqdm
+
