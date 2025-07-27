@@ -1,7 +1,7 @@
 # .gitignore
 
 .env
-/Users/harshithnr/langchain/medical_reasearch_bot/medic-hat-firebase-adminsdk-fbsvc-925b88b753.json
+/Users/harshithnr/langchain/medical_reasearch_bot/medic-hat-firebase-adminsdk-***.json
 __pycache__/
 *.pyc
 .DS_Store
