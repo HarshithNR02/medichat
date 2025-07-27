@@ -48,27 +48,27 @@ medical_research_bot/
 ##  Setup Instructions
 
 ### 1. Clone the repository
-```bash
+```
 git clone https://github.com/HarshithNR02/medichat.git
 
 cd medichat
-
+```
 ### 2. Install dependencies
-```bash
+```
 pip install -r requirements.txt
-
+```
 ### 3. Set up environment variables
 Create a .env file in the root:
-
+```
 OPENAI_API_KEY=your-openai-api-key
 GOOGLE_APPLICATION_CREDENTIALS=medic-hat-firebase-adminsdk-xxxxx.json
+```
 Ensure the GOOGLE_APPLICATION_CREDENTIALS path is valid and the JSON file is in the root directory.
-
-▶Run the App
-
+### Run the App
+```
 streamlit run main.py
-
-How It Works
+```
+### How It Works
 
 1. **Document Ingestion**
    - PDFs are parsed using `PyMuPDFLoader`
@@ -93,3 +93,5 @@ How It Works
      - Answer
      - Cited sources
      - Timestamp
+
+
